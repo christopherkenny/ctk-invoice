@@ -1,0 +1,17 @@
+title: ctk-invoice
+author: Christopher T. Kenny
+version: 1.0.0
+quarto-required: ">=1.5.0"
+contributes:
+  formats:
+    typst:
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ
+      date-format: "MMMM D, YYYY"
+      mainfont:
+        - "Spectral"
+        - "Crimson"
+        - "Crimson Text"
+      linkcolor: "#800000"
+      fontsize: 11pt

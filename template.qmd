@@ -1,0 +1,23 @@
+---
+title: Invoice
+format:
+  ctk-invoice-typst: default
+date: today
+author:
+  - name: Anne Expert
+    affiliations:
+      - address: "123 Cambridge MA"
+invoice-number: "2025-001"
+invoice-period: "December 1, 2025 -- December 31, 2025"
+invoice-re: Litigation
+rate: "$100/hr"
+---
+
+| Date | Description of Work | Hours | Cost |
+|:-----|:--------------------|------:|-----:|
+| Jan 3 | Research and preliminary analysis | 2.50 | $250.00 |
+| Jan 10 | Draft report preparation | 4.00 | $400.00 |
+| Jan 15 | Data collection and processing | 3.25 | $325.00 |
+| Jan 20 | Revisions and correspondence | 1.75 | $175.00 |
+| Jan 28 | Final review and submission | 2.00 | $200.00 |
+| Total | | 13.50 | $1,350.00 |
