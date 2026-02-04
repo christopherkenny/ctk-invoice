@@ -34,7 +34,7 @@ The invoice header is configured through YAML metadata, while the billing table 
 ### Billing Table
 
 The billing table is written as a standard markdown table with columns for date, description, hours, and cost.
-Use bold text on the final row to indicate the total.
+The template automatically uses bold text and a horizontal line on the final row to indicate the total.
 
 ### Fonts
 
